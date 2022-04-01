@@ -27,7 +27,8 @@ namespace GameBauCua {
 		int momo;
 	public:
 		//check event button
-		int check = 0;
+		//đặt tên biến ngu
+		int checkeven = 0;
 		bool checkStop = true;
 		//automatic number generation
 		// 1 nai
@@ -365,7 +366,7 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 	this->btnTom->Enabled = true;
 	this->btnGa->Enabled = true;
 	//catch event for button
-	this->check = 1;
+	this->checkeven = 1;
 
 }
 	//btnBau
@@ -379,7 +380,7 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 	this->btnTom->Enabled = true;
 	this->btnGa->Enabled = true;
 	//catch event for button
-	this->check = 2;
+	this->checkeven = 2;
 }
 	//btnGa
 private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
@@ -392,7 +393,7 @@ private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e
 	this->btnTom->Enabled = true;
 	this->btnGa->Enabled = false;
 	//catch event for button
-	this->check = 3;
+	this->checkeven = 3;
 }
 	//btnTom
 private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e) {
@@ -405,7 +406,7 @@ private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e
 	this->btnTom->Enabled = false;
 	this->btnGa->Enabled = true;
 	//catch event for button
-	this->check = 6;
+	this->checkeven = 6;
 }
 	//btnCua
 private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {
@@ -418,7 +419,7 @@ private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e
 	this->btnTom->Enabled = true;
 	this->btnGa->Enabled = true;
 	//catch event for button
-	this->check = 5;
+	this->checkeven = 5;
 }
 	//btnCa
 private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e) {
@@ -431,7 +432,7 @@ private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e
 	this->btnTom->Enabled = true;
 	this->btnGa->Enabled = true;
 	//catch event for button
-	this->check = 4;
+	this->checkeven= 4;
 }
 private: System::Void label1_Click(System::Object^ sender, System::EventArgs^ e) {
 }

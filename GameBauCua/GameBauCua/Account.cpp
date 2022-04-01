@@ -2,7 +2,7 @@
 
 Account::Account()
 {
-    
+   //contructor không có đối số 
 }
 
 Account::Account(string id, string userName, string pass, int money)

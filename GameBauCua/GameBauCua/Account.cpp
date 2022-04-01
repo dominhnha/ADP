@@ -2,6 +2,7 @@
 
 Account::Account()
 {
+    
 }
 
 Account::Account(string id, string userName, string pass, int money)

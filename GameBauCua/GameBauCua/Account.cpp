@@ -7,6 +7,7 @@ Account::Account()
 
 Account::Account(string id, string userName, string pass, int money)
 {
+    //no cmt code 
     this->id = id;
     this->userName = userName;
     this->pass = pass;
